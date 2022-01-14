@@ -143,3 +143,19 @@ class Proxmox
 ```sh
 apt install git
 ```
+
+> Access the directory "/var/www/"
+
+```sh
+cd /var/www/
+```
+
+> Clone this project into the 'proxmox' folder
+
+```sh
+git clone https://github.com/Full-Monitoring/proxmox-class-api-login-pass.git proxmox
+#
+cd proxmox/
+#
+ls -la
+```
