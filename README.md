@@ -154,8 +154,8 @@ cd /var/www/
 
 ```sh
 git clone https://github.com/Full-Monitoring/proxmox-class-api-login-pass.git proxmox
-#
+# open proxmox
 cd proxmox/
-#
+# list files
 ls -la
 ```
