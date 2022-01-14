@@ -10,10 +10,6 @@ class Proxmox
     public $token;
     public $cookie;
 
-    /**
-     * set
-     */
-
     public function  setPM_IP($v)
     {
         $this->PM_IP = $v;
@@ -65,11 +61,6 @@ class Proxmox
         curl_close($ch);
         $proxmox->token = json_decode($res)->data->CSRFPreventionToken;
         $proxmox->cookie = json_decode($res)->data->ticket;
-    }
-
-    public function logout()
-    {
-        /* ainda não encontrei essa opcao na documentacao do proxmox */
     }
 
     public function reqPrxmox()
