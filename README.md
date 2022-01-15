@@ -2,27 +2,6 @@
 
 > Request to proxmox api with username and password. No need for api token.
 
-## Request example using get method
-
-### To get the version
-
-```md
-http://127.0.0.1/proxmox?PM_URL=version&PM_IP=172.33.255.2&PM_PORT=8006&PM_USER=roo@pam&PM_PASS=12345678
-
-```
-
-### To get cluster
-
-``` txt
-http://127.0.0.1/proxmox?PM_URL=cluster&PM_IP=172.33.255.2&PM_PORT=8006&PM_USER=roo@pam&PM_PASS=12345678
-```
-
-### To get cluster/resources
-
-``` txt
-http://127.0.0.1/proxmox?PM_URL=cluster/resources&PM_IP=172.33.255.2&PM_PORT=8006&PM_USER=roo@pam&PM_PASS=12345678
-```
-
 ## Directories and files
 
 ```sh
@@ -158,4 +137,25 @@ git clone https://github.com/Full-Monitoring/proxmox-class-api-login-pass.git pr
 cd proxmox/
 # list files
 ls -la
+```
+
+## Request example using get method
+
+### To get the version
+
+```md
+http://127.0.0.1/proxmox?PM_URL=version&PM_IP=172.33.255.2&PM_PORT=8006&PM_USER=roo@pam&PM_PASS=12345678
+
+```
+
+### To get cluster
+
+``` txt
+http://127.0.0.1/proxmox?PM_URL=cluster&PM_IP=172.33.255.2&PM_PORT=8006&PM_USER=roo@pam&PM_PASS=12345678
+```
+
+### To get cluster/resources
+
+``` txt
+http://127.0.0.1/proxmox?PM_URL=cluster/resources&PM_IP=172.33.255.2&PM_PORT=8006&PM_USER=roo@pam&PM_PASS=12345678
 ```
