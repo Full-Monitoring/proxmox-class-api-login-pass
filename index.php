@@ -8,6 +8,5 @@ $proxmox->setPM_USER($_GET['PM_USER']);
 $proxmox->setPM_PASS($_GET['PM_PASS']);
 $proxmox->PM_URL = $_GET['PM_URL'];
 
-// login => request => logout
 $proxmox->login();
 echo ($proxmox->reqPrxmox());
