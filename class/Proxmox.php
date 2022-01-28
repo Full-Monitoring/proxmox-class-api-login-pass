@@ -63,7 +63,7 @@ class Proxmox
         $proxmox->cookie = json_decode($res)->data->ticket;
     }
 
-    public function reqPrxmox()
+    public function reqProxmox()
     {
         global $proxmox;
         $ch = curl_init();

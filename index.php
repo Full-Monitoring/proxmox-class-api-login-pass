@@ -9,4 +9,4 @@ $proxmox->setPM_PASS($_GET['PM_PASS']);
 $proxmox->PM_URL = $_GET['PM_URL'];
 
 $proxmox->login();
-echo ($proxmox->reqPrxmox());
+echo ($proxmox->reqProxmox());
